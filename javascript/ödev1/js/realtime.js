@@ -12,18 +12,39 @@ function myFunc(arg) {
 
     let date_ob = new Date();
 
-    // current hours
-    let hours = date_ob.getHours();
+    let day = date_ob.getDay()
 
-    // current minutes
-    let minutes = date_ob.getMinutes();
+    if(day = 1)
+    {
+        day = "Pazartesi"
+    }
+    else if(day = 2)
+    {
+        day = "Salı"
+    }
+    else if(day = 3)
+    {
+        day = "Çarşanba"
+    }
+    else if(day = 4)
+    {
+        day = "Perşenbe"
+    }
+    else if(day = 5)
+    {
+        day = "Cuma"
+    }
+    else if(day = 6)
+    {
+        day = "Cumartesi"
+    }
+    else if(day = 7)
+    {
+        day = "Pazar"
 
-    // current seconds
-    let seconds = date_ob.getSeconds();
+    }
 
-    title1.innerHTML = `${hours}:${minutes}:${seconds}`;
-
-    console.log(`arg was => ${arg}`);
+    title1.innerHTML = `${date_ob.getHours()}:${date_ob.getMinutes()}:${date_ob.getSeconds()}:${day}`;
 
     setTimeout(myFunc, 1000, 'funky');
 }
