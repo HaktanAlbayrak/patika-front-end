@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI';
+    background-color: rgb(179, 214, 107);
+  
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 10px;
+  }
+  
+  .card {
+    width: 150px;
+    flex-direction: column;
+    border: 1px solid #e5eeeb;
+    background-color: rgb(198, 199, 196);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 5px;
+  }
+  
+  .card-header {
+    color: #04ba77;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid #04ba77;
+    background-color: #c2f3e1;
+    padding: 5px 10px;
+  }
+  
+  .card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+  }
+  
+  .material-icons {
+    font-size: 36px;
+    color: #04ba77;
+    margin-bottom: 5px;
+  }
+  
+  .main-description {
+    color: rgb(242, 241, 245);
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .selects-main{
+    margin-top: 2px;
+    height: 40px;
+    }
+
+  .selects-input{
+    margin-top: 10px;
+    margin-left: 180px;
+    font-size: 15px;
+    float: left;
+  }
