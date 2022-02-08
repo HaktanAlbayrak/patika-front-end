@@ -1,0 +1,53 @@
+.Body{
+
+    margin-top: 10px;
+    background-color: white;
+    width: 900px;
+    height: 230px;
+    border-radius: 20px;
+}
+
+.InputName{
+  width: 170px;
+  font-size: large;
+  margin-right: 3px;
+}
+
+.InputNote{
+  width: 870px;
+  height: 165px;
+  font-size: x-large;
+}
+
+.Footer{
+  background-color: white;
+  width: 870px;
+}
+
+.Circle{
+  width: 40px;
+  height: 40px;
+  resize: 40px;
+}
+
+.Filter{
+  width: 900px;
+  margin-top: 10px;
+}
+
+.NoteList{
+  background-color: F0F8FF;
+  width: 900px;
+  margin-top: 10px;
+}
+
+.NoteItem{
+  align-items: center;
+  height: 100px;
+  border-radius: 30px;
+  font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
