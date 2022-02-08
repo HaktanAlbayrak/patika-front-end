@@ -15,7 +15,7 @@ function App() {
 
         <Center p="20px">
 
-          <Box background={"#F0F8FF"} w='1400px' h="800" >
+          <Box background={"#548572"} w='1400px' h="800" >
 
             <Header />
             <Form />
