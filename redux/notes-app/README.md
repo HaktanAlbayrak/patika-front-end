@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/enesvardar/kodluyoruz-front-end/blob/main/redux/notes-app/img3.JPG">
+  <img src="https://github.com/enesvardar/kodluyoruz-front-end/blob/main/redux/notes-app/img3.jpg">
 </p>
 
 <p align="center">
